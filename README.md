@@ -91,6 +91,39 @@ Características principales:
  - 📈 Cobros: Registro de dinero pendiente por cobrar. Genera códigos QR de cobro propios y facilita el envío a deudores vía WhatsApp
  - 🔔 Recordatorios Mensuales: Lógica interna que verifica y actualiza automáticamente el estado de "Pagado/Cobrado" a "Pendiente" al transcurrir el mes
 
+**Tecnologias:**
+
+ - Frontend Móvil: Flutter + Dart, Material Design, flutter_animate, google_fonts
+ - Gestión de Estado: Provider
+ - Notificaciones Locales: flutter_local_notifications, timezone, flutter_timezone
+ - QR: qr_flutter (generación), mobile_scanner (lectura)
+ - Integración: share_plus, url_launcher
+ - Monetización: google_mobile_ads (AdMob)
+ - Backend Cloud: Firebase Authentication, Cloud Firestore, Cloud Storage, Cloud Messaging (FCM)
+ - Cloud Functions: Node.js (limpiarDatosUsuario, enviarSoporte)
+
+---
+
+### 🏪 Sistema de Ventas e Inventario
+Aplicación web moderna diseñada para la gestión integral de una tienda, permitiendo administrar productos, controlar stock y movimientos de inventario, realizar ventas mediante un Punto de Venta (POS) interactivo y ofrecer un catálogo público para clientes con soporte de delivery georreferenciado mediante mapas.
+
+Características principales:
+
+ - 📦 Gestión de Inventario: Control completo de productos, stock y movimientos
+ - 💳 Punto de Venta (POS): Carrito interactivo con descuentos, múltiples métodos de pago, anulación de transacciones y reposición de stock automática
+ - 🗺️ Delivery Georreferenciado: Integración con Google Maps para ubicación de tienda y selección de direcciones de entrega por parte de clientes
+ - 👥 Portal del Cliente: Catálogo interactivo de productos con stock en tiempo real y flujo de solicitud de delivery
+ - ⚙️ Configuración Dinámica: Panel para administradores donde se definen parámetros clave (ubicación de tienda, tarifa de envío base, margen de días para         alertas de vencimiento)
+ - 🔔 Alertas Automáticas: Notificaciones por correo electrónico sobre productos próximos a vencer
+
+**Tecnologías:**
+
+ - Backend: PHP 8.2+ + Laravel 12.0
+ - Frontend: HTML5 semántico, CSS Vanilla, Tailwind CSS 4.0 (compilación nativa con Vite), Alpine.js
+ - Base de Datos: SQLite (portabilidad y desarrollo rápido)
+ - Mapas: Google Maps JavaScript API
+ - Automatización: Scheduler nativo de Laravel
+
 ---
 
 ## 📬 Conectemos
