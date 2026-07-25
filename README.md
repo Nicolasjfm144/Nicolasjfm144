@@ -43,7 +43,7 @@ Aseguro la calidad del software mediante pruebas exhaustivas en cada etapa del d
 
 ## 📌 Proyectos destacados
 
-### 🏥 MEDIRELLA
+### 🏥 MEDIRELLA https://medirella.es/tienda
 **Sistema web de gestión de consultorio médico** enfocado en atención general, ginecología y obstetricia.
 
 **Características principales:**
